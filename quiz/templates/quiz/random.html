@@ -1,0 +1,9 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'quiz/vote.css'%}" />
+<h1>HEY</h1>
+{% if error %}
+    <p> {{error}}</p>
+{%else%}
+    <h1> {{question.text}}</h1>
+    <p>Published on: {{pub_date}}</p>
+{%endif%}

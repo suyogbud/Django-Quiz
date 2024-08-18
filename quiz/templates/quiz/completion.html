@@ -1,0 +1,14 @@
+{% extends "nav.html" %} {% block content %}
+<div class="main">
+  <h1>Quiz Completed</h1>
+  <p>
+    You answered {{ correct_answers }} out of {{ total_questions }} questions
+    correctly.
+  </p>
+  <p>Your score is {{ percentage }}%.</p>
+  <p>Your highest score is: {{ highest_score }}%</p>
+  <p>Your lowest score is: {{ lowest_score }}%</p>
+  <p>Your average score is: {{ average_score }}%</p>
+  <a href="{% url 'quiz:flush' %}" class="btn btn-primary">Restart Quiz</a>
+</div>
+{% endblock %}

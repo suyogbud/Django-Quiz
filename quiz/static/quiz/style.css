@@ -1,0 +1,16 @@
+li a {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+a {
+  color: white;
+}
+
+/* body {
+  background: white url("images/bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+} */

@@ -1,0 +1,35 @@
+{% extends "nav.html" %} {% block content %}
+<style>
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    list-style: none;
+  }
+</style>
+<div class="main">
+  <h1>{{ question.question_text }}</h1>
+
+  <ul class="choice_list list-group">
+    {% for choice in question.choice_set.all %}
+    <li class="list-group-item">
+      {{ choice.choice_text }} -- {{ choice.votes }}
+      {% if choice == selected_choice %}
+        {% if is_correct %}
+          <span style="color: green;">(Correct)</span>
+        {% else %}
+          <span style="color: red;">(Incorrect)</span>
+        {% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div>
+    <a href="{% url 'home' %}">Next Question</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "nav.html" %} {% load static %}
+<link rel="stylesheet" href="{% static 'quiz/vote.css'%}" />
+{% block content %}
+
+<body>
+  <form
+    action="{% url 'quiz:vote' question.id %}"
+    method="post"
+    class="form-check"
+  >
+    {% csrf_token %}
+    <fieldset class="detail_main">
+      <legend><h1>{{ question.question_text }}</h1></legend>
+      {% if error_message %}
+      <p><strong>{{ error_message }}</strong></p>
+      <br />
+      {% endif %} {% for choice in question.choice_set.all %}
+      <div>
+        <input
+          type="radio"
+          name="choice"
+          id="choice{{ forloop.counter }}"
+          value="{{ choice.id }}"
+          class="form-check-input"
+        />
+        <label
+          class="form-check-label btn btn-outline-primary"
+          for="choice{{ forloop.counter }}"
+          >{{ choice.choice_text }}</label
+        >
+      </div>
+      <br />
+      {% endfor %}
+    </fieldset>
+    <div class="detail_foot">
+      <input
+        class="btn btn-primary"
+        type="submit"
+        value="Vote"
+        class="submit"
+      />
+      <a href="{% url 'home' %}">Next Question</a>
+    </div>
+  </form>
+</body>
+{% endblock %}

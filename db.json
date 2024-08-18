@@ -1,0 +1,2065 @@
+[
+  {
+    "model": "quiz.question",
+    "pk": 5,
+    "fields": {
+      "question_text": "Which data structure uses LIFO (Last In, First Out) principle?",
+      "pub_date": "2024-07-22T22:18:45Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 6,
+    "fields": {
+      "question_text": "What does the acronym 'SQL' stand for?",
+      "pub_date": "2024-07-22T22:19:28Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 7,
+    "fields": {
+      "question_text": "In which algorithm does the 'divide and conquer' strategy get used?",
+      "pub_date": "2024-07-22T22:20:53Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 8,
+    "fields": {
+      "question_text": "Which of the following is a characteristic of a class in object-oriented programming?",
+      "pub_date": "2024-07-22T22:21:26Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 9,
+    "fields": {
+      "question_text": "What is the time complexity of binary search in a sorted array?",
+      "pub_date": "2024-07-22T22:21:55Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 10,
+    "fields": {
+      "question_text": "Which sorting algorithm has the best average-case time complexity?",
+      "pub_date": "2024-07-22T22:22:22Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 11,
+    "fields": {
+      "question_text": "What is the purpose of the 'garbage collector' in Java?",
+      "pub_date": "2024-07-22T22:22:52Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 12,
+    "fields": {
+      "question_text": "In networking, what does 'HTTP' stand for?",
+      "pub_date": "2024-07-22T22:23:21Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 13,
+    "fields": {
+      "question_text": "Which database normalization form eliminates repeating groups?",
+      "pub_date": "2024-07-22T22:23:55Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 14,
+    "fields": {
+      "question_text": "What does 'API' stand for in software development?",
+      "pub_date": "2024-07-22T22:24:17Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 15,
+    "fields": {
+      "question_text": "Which protocol is used to send emails over the internet?",
+      "pub_date": "2024-07-22T22:24:46Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 16,
+    "fields": {
+      "question_text": "Which programming language is known for its use in web development and has a syntax similar to JavaScript?",
+      "pub_date": "2024-07-22T22:25:15Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 17,
+    "fields": {
+      "question_text": "In a relational database, what is a 'foreign key'?",
+      "pub_date": "2024-07-22T22:25:58Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 18,
+    "fields": {
+      "question_text": "Which data structure is used in a breadth-first search (BFS) algorithm?",
+      "pub_date": "2024-07-22T22:26:41Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 19,
+    "fields": {
+      "question_text": "Which of the following is an example of a NoSQL database?",
+      "pub_date": "2024-07-22T22:27:08Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 20,
+    "fields": {
+      "question_text": "In computer science, what does 'ASCII' stand for?",
+      "pub_date": "2024-07-22T22:27:35Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 21,
+    "fields": {
+      "question_text": "What is the main advantage of using a linked list over an array?",
+      "pub_date": "2024-07-22T22:27:59Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 22,
+    "fields": {
+      "question_text": "In the context of software engineering, what does 'refactoring' mean?",
+      "pub_date": "2024-07-22T22:28:22Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 23,
+    "fields": {
+      "question_text": "Which of the following is NOT a common programming paradigm?",
+      "pub_date": "2024-07-22T22:28:49Z"
+    }
+  },
+  {
+    "model": "quiz.question",
+    "pk": 24,
+    "fields": {
+      "question_text": "In cryptography, what does 'RSA' stand for?",
+      "pub_date": "2024-07-22T22:29:18Z"
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 12,
+    "fields": {
+      "question": 5,
+      "choice_text": "Queue",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 13,
+    "fields": {
+      "question": 5,
+      "choice_text": "Stack",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 14,
+    "fields": {
+      "question": 5,
+      "choice_text": "Linked List",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 15,
+    "fields": {
+      "question": 5,
+      "choice_text": "Tree",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 16,
+    "fields": {
+      "question": 6,
+      "choice_text": "Structured Query Language",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 17,
+    "fields": {
+      "question": 6,
+      "choice_text": "Standard Question Language",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 18,
+    "fields": {
+      "question": 6,
+      "choice_text": "Simple Query List",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 19,
+    "fields": {
+      "question": 6,
+      "choice_text": "Sequential Query Language",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 20,
+    "fields": {
+      "question": 7,
+      "choice_text": "Bubble Sort",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 21,
+    "fields": {
+      "question": 7,
+      "choice_text": "Merge Sort",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 22,
+    "fields": {
+      "question": 7,
+      "choice_text": "Insertion Sort",
+      "votes": 2,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 23,
+    "fields": {
+      "question": 7,
+      "choice_text": "Selection Sort",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 24,
+    "fields": {
+      "question": 8,
+      "choice_text": "Encapsulation",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 25,
+    "fields": {
+      "question": 8,
+      "choice_text": "Polymorphism",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 26,
+    "fields": {
+      "question": 8,
+      "choice_text": "Inheritance",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 27,
+    "fields": {
+      "question": 8,
+      "choice_text": "All of the above",
+      "votes": 0,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 28,
+    "fields": {
+      "question": 9,
+      "choice_text": "O(n)",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 29,
+    "fields": {
+      "question": 9,
+      "choice_text": "O(n^2)",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 30,
+    "fields": {
+      "question": 9,
+      "choice_text": "O(log n)",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 31,
+    "fields": {
+      "question": 9,
+      "choice_text": "O(1)",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 32,
+    "fields": {
+      "question": 10,
+      "choice_text": "Quick Sort",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 33,
+    "fields": {
+      "question": 10,
+      "choice_text": "Merge Sort",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 34,
+    "fields": {
+      "question": 10,
+      "choice_text": "Bubble Sort",
+      "votes": 2,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 35,
+    "fields": {
+      "question": 10,
+      "choice_text": "Heap Sort",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 36,
+    "fields": {
+      "question": 11,
+      "choice_text": "To clean up unused code",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 37,
+    "fields": {
+      "question": 11,
+      "choice_text": "To manage memory allocation and deallocation",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 38,
+    "fields": {
+      "question": 11,
+      "choice_text": "To enhance the performance of the CPU",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 39,
+    "fields": {
+      "question": 11,
+      "choice_text": "To handle exceptions",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 40,
+    "fields": {
+      "question": 12,
+      "choice_text": "HyperText Transfer Protocol",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 41,
+    "fields": {
+      "question": 12,
+      "choice_text": "High Transfer Text Protocol",
+      "votes": 2,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 42,
+    "fields": {
+      "question": 12,
+      "choice_text": "Hyper Transfer Text Protocol",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 43,
+    "fields": {
+      "question": 12,
+      "choice_text": "HighText Transfer Protocol",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 44,
+    "fields": {
+      "question": 13,
+      "choice_text": "First Normal Form (1NF)",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 45,
+    "fields": {
+      "question": 13,
+      "choice_text": "Second Normal Form (2NF)",
+      "votes": 0,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 46,
+    "fields": {
+      "question": 13,
+      "choice_text": "Third Normal Form (3NF)",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 47,
+    "fields": {
+      "question": 13,
+      "choice_text": "Boyce-Codd Normal Form (BCNF)",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 48,
+    "fields": {
+      "question": 14,
+      "choice_text": "Application Programming Interface",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 49,
+    "fields": {
+      "question": 14,
+      "choice_text": "Application Process Interface",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 50,
+    "fields": {
+      "question": 14,
+      "choice_text": "Automated Programming Interface",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 51,
+    "fields": {
+      "question": 14,
+      "choice_text": "Application Protocol Interface",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 52,
+    "fields": {
+      "question": 15,
+      "choice_text": "FTP",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 53,
+    "fields": {
+      "question": 15,
+      "choice_text": "SMTP",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 54,
+    "fields": {
+      "question": 15,
+      "choice_text": "HTTP",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 55,
+    "fields": {
+      "question": 15,
+      "choice_text": "POP3",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 56,
+    "fields": {
+      "question": 16,
+      "choice_text": "PHP",
+      "votes": 0,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 57,
+    "fields": {
+      "question": 16,
+      "choice_text": "Python",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 58,
+    "fields": {
+      "question": 16,
+      "choice_text": "Ruby",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 59,
+    "fields": {
+      "question": 16,
+      "choice_text": "Swift",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 60,
+    "fields": {
+      "question": 17,
+      "choice_text": "A key that uniquely identifies a record in the same table",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 61,
+    "fields": {
+      "question": 17,
+      "choice_text": "A key that uniquely identifies a record in another table",
+      "votes": 3,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 62,
+    "fields": {
+      "question": 17,
+      "choice_text": "A key used to sort data",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 63,
+    "fields": {
+      "question": 17,
+      "choice_text": "A key that is automatically generated by the database",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 64,
+    "fields": {
+      "question": 18,
+      "choice_text": "Stack",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 65,
+    "fields": {
+      "question": 18,
+      "choice_text": "Queue",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 66,
+    "fields": {
+      "question": 18,
+      "choice_text": "Linked List",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 67,
+    "fields": {
+      "question": 18,
+      "choice_text": "Hash Table",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 68,
+    "fields": {
+      "question": 19,
+      "choice_text": "MySQL",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 69,
+    "fields": {
+      "question": 19,
+      "choice_text": "PostgreSQL",
+      "votes": 2,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 70,
+    "fields": {
+      "question": 19,
+      "choice_text": "MongoDB",
+      "votes": 0,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 71,
+    "fields": {
+      "question": 19,
+      "choice_text": "SQLite",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 72,
+    "fields": {
+      "question": 20,
+      "choice_text": "American Standard Code for Information Interchange",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 73,
+    "fields": {
+      "question": 20,
+      "choice_text": "American Standard Code for Information Interchange",
+      "votes": 0,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 74,
+    "fields": {
+      "question": 20,
+      "choice_text": "American Standard Code for International Information",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 75,
+    "fields": {
+      "question": 20,
+      "choice_text": "American Standard Code for International Information",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 76,
+    "fields": {
+      "question": 21,
+      "choice_text": "Faster access time",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 77,
+    "fields": {
+      "question": 21,
+      "choice_text": "Fixed size",
+      "votes": 2,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 78,
+    "fields": {
+      "question": 21,
+      "choice_text": "Dynamic size",
+      "votes": 2,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 79,
+    "fields": {
+      "question": 21,
+      "choice_text": "Easier to implement",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 80,
+    "fields": {
+      "question": 22,
+      "choice_text": "Adding new features",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 81,
+    "fields": {
+      "question": 22,
+      "choice_text": "Redesigning the user interface",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 82,
+    "fields": {
+      "question": 22,
+      "choice_text": "Improving the internal structure of code without changing its external behavior",
+      "votes": 3,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 83,
+    "fields": {
+      "question": 22,
+      "choice_text": "Improving the internal structure of code without changing its external behavior",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 84,
+    "fields": {
+      "question": 23,
+      "choice_text": "Object-Oriented Programming",
+      "votes": 1,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 85,
+    "fields": {
+      "question": 23,
+      "choice_text": "Functional Programming",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 86,
+    "fields": {
+      "question": 23,
+      "choice_text": "Procedural Programming",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 87,
+    "fields": {
+      "question": 23,
+      "choice_text": "Assembly Programming",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 88,
+    "fields": {
+      "question": 24,
+      "choice_text": "Random Security Algorithm",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 89,
+    "fields": {
+      "question": 24,
+      "choice_text": "Rivest-Shamir-Adleman",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 90,
+    "fields": {
+      "question": 24,
+      "choice_text": "Random Secure Algorithm",
+      "votes": 1,
+      "correct": true
+    }
+  },
+  {
+    "model": "quiz.choice",
+    "pk": 91,
+    "fields": {
+      "question": 24,
+      "choice_text": "Rivest-Shamir-Adams",
+      "votes": 0,
+      "correct": false
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-07-17T15:49:59.573Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "1",
+      "object_repr": "What's up?",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-07-17T15:52:01.826Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "1",
+      "object_repr": "What's up?",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-07-21T03:27:56.254Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "2",
+      "object_repr": "Sky",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Votes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-07-21T03:28:02.935Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "1",
+      "object_repr": "Not much",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Votes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-07-21T03:30:41.066Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "2",
+      "object_repr": "yo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-07-21T03:31:17.727Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "2",
+      "object_repr": "yo",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-07-21T03:31:53.700Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "3",
+      "object_repr": "Test",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Test choice 1\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Test choice 2\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Test choice 3\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Test choice 4\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-07-22T19:30:25.191Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "4",
+      "object_repr": "Test3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"test31\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"test32\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"test34\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"test36\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-07-22T22:18:17.193Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "4",
+      "object_repr": "Test3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-07-22T22:18:22.135Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "3",
+      "object_repr": "Test",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-07-22T22:18:27.564Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "1",
+      "object_repr": "What's up?",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-07-22T22:19:13.262Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "5",
+      "object_repr": "Which data structure uses LIFO (Last In, First Out) principle?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Queue\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Stack\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Linked List\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Tree\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-07-22T22:20:39.104Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "6",
+      "object_repr": "What does the acronym 'SQL' stand for?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Structured Query Language\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Standard Question Language\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Simple Query List\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Sequential Query Language\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-07-22T22:21:17.789Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "7",
+      "object_repr": "In which algorithm does the 'divide and conquer' strategy get used?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Bubble Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Merge Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Insertion Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Selection Sort\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-07-22T22:21:43.170Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "8",
+      "object_repr": "Which of the following is a characteristic of a class in object-oriented programming?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Encapsulation\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Polymorphism\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Inheritance\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"All of the above\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-07-22T22:22:13.072Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "9",
+      "object_repr": "What is the time complexity of binary search in a sorted array?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"O(n)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"O(n^2)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"O(log n)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"O(1)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-07-22T22:22:42.937Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "10",
+      "object_repr": "Which sorting algorithm has the best average-case time complexity?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Quick Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Merge Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Bubble Sort\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Heap Sort\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-07-22T22:23:12.218Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "11",
+      "object_repr": "What is the purpose of the 'garbage collector' in Java?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"To clean up unused code\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"To manage memory allocation and deallocation\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"To enhance the performance of the CPU\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"To handle exceptions\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-07-22T22:23:45.241Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "12",
+      "object_repr": "In networking, what does 'HTTP' stand for?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"HyperText Transfer Protocol\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"High Transfer Text Protocol\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Hyper Transfer Text Protocol\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"HighText Transfer Protocol\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-07-22T22:24:11.000Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "13",
+      "object_repr": "Which database normalization form eliminates repeating groups?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"First Normal Form (1NF)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Second Normal Form (2NF)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Third Normal Form (3NF)\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Boyce-Codd Normal Form (BCNF)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-07-22T22:24:37.224Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "14",
+      "object_repr": "What does 'API' stand for in software development?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Application Programming Interface\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Application Process Interface\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Automated Programming Interface\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Application Protocol Interface\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-07-22T22:25:05.712Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "15",
+      "object_repr": "Which protocol is used to send emails over the internet?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"FTP\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"SMTP\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"HTTP\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"POP3\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-07-22T22:25:34.843Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "16",
+      "object_repr": "Which programming language is known for its use in web development and has a syntax similar to JavaScript?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"PHP\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Python\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Ruby\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Swift\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-07-22T22:26:26.936Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "17",
+      "object_repr": "In a relational database, what is a 'foreign key'?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"A key that uniquely identifies a record in the same table\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"A key that uniquely identifies a record in another table\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"A key used to sort data\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"A key that is automatically generated by the database\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-07-22T22:26:59.118Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "18",
+      "object_repr": "Which data structure is used in a breadth-first search (BFS) algorithm?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Stack\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Queue\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Linked List\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Hash Table\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-07-22T22:27:26.552Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "19",
+      "object_repr": "Which of the following is an example of a NoSQL database?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"MySQL\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"PostgreSQL\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"MongoDB\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"SQLite\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-07-22T22:27:52.866Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "20",
+      "object_repr": "In computer science, what does 'ASCII' stand for?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"American Standard Code for Information Interchange\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"American Standard Code for Information Interchange\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"American Standard Code for International Information\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"American Standard Code for International Information\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-07-22T22:28:14.069Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "21",
+      "object_repr": "What is the main advantage of using a linked list over an array?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Faster access time\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Fixed size\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Dynamic size\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Easier to implement\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-07-22T22:28:40.379Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "22",
+      "object_repr": "In the context of software engineering, what does 'refactoring' mean?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Adding new features\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Redesigning the user interface\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Improving the internal structure of code without changing its external behavior\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Improving the internal structure of code without changing its external behavior\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-07-22T22:29:07.536Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "23",
+      "object_repr": "Which of the following is NOT a common programming paradigm?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Object-Oriented Programming\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Functional Programming\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Procedural Programming\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Assembly Programming\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-07-22T22:29:41.389Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "24",
+      "object_repr": "In cryptography, what does 'RSA' stand for?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"Random Security Algorithm\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Rivest-Shamir-Adleman\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Random Secure Algorithm\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"Rivest-Shamir-Adams\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-07-23T16:57:38.912Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "24",
+      "object_repr": "In cryptography, what does 'RSA' stand for?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Random Secure Algorithm\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-07-23T16:57:50.878Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "23",
+      "object_repr": "Which of the following is NOT a common programming paradigm?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Assembly Programming\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-07-23T16:58:17.295Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "22",
+      "object_repr": "In the context of software engineering, what does 'refactoring' mean?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Improving the internal structure of code without changing its external behavior\", \"fields\": [\"Votes\", \"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-07-23T16:58:30.813Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "21",
+      "object_repr": "What is the main advantage of using a linked list over an array?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Dynamic size\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-07-23T16:58:49.330Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "20",
+      "object_repr": "In computer science, what does 'ASCII' stand for?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"American Standard Code for Information Interchange\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-07-23T16:58:59.980Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "19",
+      "object_repr": "Which of the following is an example of a NoSQL database?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"MongoDB\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-07-23T16:59:25.900Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "18",
+      "object_repr": "Which data structure is used in a breadth-first search (BFS) algorithm?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Queue\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-07-23T16:59:35.249Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "17",
+      "object_repr": "In a relational database, what is a 'foreign key'?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"A key that uniquely identifies a record in another table\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-07-23T16:59:48.418Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "16",
+      "object_repr": "Which programming language is known for its use in web development and has a syntax similar to JavaScript?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"PHP\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-07-23T16:59:56.543Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "15",
+      "object_repr": "Which protocol is used to send emails over the internet?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"SMTP\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-07-23T17:00:08.340Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "14",
+      "object_repr": "What does 'API' stand for in software development?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Application Programming Interface\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-07-23T17:00:18.789Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "13",
+      "object_repr": "Which database normalization form eliminates repeating groups?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Second Normal Form (2NF)\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-07-23T17:00:39.237Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "12",
+      "object_repr": "In networking, what does 'HTTP' stand for?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"HyperText Transfer Protocol\", \"fields\": [\"Correct\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"Hyper Transfer Text Protocol\", \"fields\": [\"Votes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-07-23T17:00:48.696Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "11",
+      "object_repr": "What is the purpose of the 'garbage collector' in Java?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"To manage memory allocation and deallocation\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-07-23T17:00:58.872Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "10",
+      "object_repr": "Which sorting algorithm has the best average-case time complexity?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Merge Sort\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-07-23T17:01:09.507Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "9",
+      "object_repr": "What is the time complexity of binary search in a sorted array?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"O(log n)\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-07-23T17:01:38.735Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "9",
+      "object_repr": "What is the time complexity of binary search in a sorted array?",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-07-23T17:01:51.764Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "9",
+      "object_repr": "What is the time complexity of binary search in a sorted array?",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-07-23T17:02:02.054Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "8",
+      "object_repr": "Which of the following is a characteristic of a class in object-oriented programming?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"All of the above\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-07-23T17:02:16.309Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "7",
+      "object_repr": "In which algorithm does the 'divide and conquer' strategy get used?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Merge Sort\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-07-23T17:02:27.311Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "6",
+      "object_repr": "What does the acronym 'SQL' stand for?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Structured Query Language\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-07-23T17:02:41.459Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "5",
+      "object_repr": "Which data structure uses LIFO (Last In, First Out) principle?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"Stack\", \"fields\": [\"Correct\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add question",
+      "content_type": 1,
+      "codename": "add_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change question",
+      "content_type": 1,
+      "codename": "change_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete question",
+      "content_type": 1,
+      "codename": "delete_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view question",
+      "content_type": 1,
+      "codename": "view_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add choice",
+      "content_type": 2,
+      "codename": "add_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change choice",
+      "content_type": 2,
+      "codename": "change_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete choice",
+      "content_type": 2,
+      "codename": "delete_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view choice",
+      "content_type": 2,
+      "codename": "view_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 3,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 3,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 3,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 3,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 4,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 4,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 4,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 4,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 5,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 5,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 5,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 5,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 7,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 7,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 7,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 7,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 8,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 8,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 8,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 8,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$HTbSn67SkVGmzJz8U2TSny$Z9RwuLQ30pYK5yLbE+jDPzH/2JMK03yUEXmp2+fAdOc=",
+      "last_login": "2024-07-31T19:47:16.231Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-07-17T04:17:58.119Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$XLly8WLrjnuEFP9S3dX0Fb$9oSys4yhzQEmsL74LZmERI8P2wVMeFvGV4Zzd9TxzY8=",
+      "last_login": "2024-07-22T23:10:51.239Z",
+      "is_superuser": false,
+      "username": "suyog",
+      "first_name": "",
+      "last_name": "",
+      "email": "suyog@suyog.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-22T20:45:53.334Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$I2bHLNISXOeaNICK1lTt9h$zGH6QNfgROdZKG7KYPJmvVH654p0pv4XCi2Xp8xzJPg=",
+      "last_login": "2024-07-22T23:13:25.205Z",
+      "is_superuser": false,
+      "username": "test",
+      "first_name": "",
+      "last_name": "",
+      "email": "test@test.ca",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-22T23:13:15.548Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "quiz", "model": "question" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "quiz", "model": "choice" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2q218q5z8w9azqlgi3uajm6eqp5s3e9t",
+    "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpMDCTp2J0zRI5tCm0FEoGp6t0LEkO7vvf-f5tE2zqkreiSRjFXU5nLL8vET50OIQ-a7rPleVqXMdsjsacttptFX7ez_TsYqAz7Ogai2ocgELB1yAzeIzXQu6ySFRlxJ5EYQXILTriJyD1oVXMLQc3nC9ccN8U:1sVNCZ:1JWh9VU3woz33Hjzczwpuu247-Vp-GNxXVcTnPxA51Q",
+      "expire_date": "2024-08-04T03:25:35.838Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b3mb2v1xl3m6hbrd5gfol51nt1x34kqh",
+    "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpMDCTp2J0zRI5tCm0FEoGp6t0LEkO7vvf-f5tE2zqkreiSRjFXU5nLL8vET50OIQ-a7rPleVqXMdsjsacttptFX7ez_TsYqAz7Ogai2ocgELB1yAzeIzXQu6ySFRlxJ5EYQXILTriJyD1oVXMLQc3nC9ccN8U:1sU7Rv:lIZeKPtsp8z_SnEtx3wpD9JPr6QipK69BGjYZc4HopI",
+      "expire_date": "2024-07-31T16:24:15.747Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jhcy7kqq8exfyd5n7zl8v48ubblcqzqu",
+    "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpMDCTp2J0zRI5tCm0FEoGp6t0LEkO7vvf-f5tE2zqkreiSRjFXU5nLL8vET50OIQ-a7rPleVqXMdsjsacttptFX7ez_TsYqAz7Ogai2ocgELB1yAzeIzXQu6ySFRlxJ5EYQXILTriJyD1oVXMLQc3nC9ccN8U:1sU6sT:N4eHw6U8F9ypich4uNqJn4fYbKBUtbqyArpG0OaRnMg",
+      "expire_date": "2024-07-31T15:47:37.558Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "qj709emwrt22r15xbk7bvsxesf0vw6pg",
+    "fields": {
+      "session_data": ".eJxVjDEOgzAMRe-SuYpMDCTp2J0zRI5tCm0FEoGp6t0LEkO7vvf-f5tE2zqkreiSRjFXU5nLL8vET50OIQ-a7rPleVqXMdsjsacttptFX7ez_TsYqAz7Ogai2ocgELB1yAzeIzXQu6ySFRlxJ5EYQXILTriJyD1oVXMLQc3nC9ccN8U:1sZFI4:gLt4r3oK0dLEIMT3qUXgd83HQ_Q-VMB4KH_GgwUSolQ",
+      "expire_date": "2024-08-14T19:47:16.245Z"
+    }
+  }
+]
